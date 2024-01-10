@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header>
-      <svg width='486px' height='168px' viewBox='0 0 486 168' version='1.1' xmlns='http://www.w3.org/2000/svg'>
+    <header className="h-16 mx-auto py-5 shadow-md flex">
+      <svg className='justify-center w-full h-full' viewBox='0 0 486 168' version='1.1' xmlns='http://www.w3.org/2000/svg'>
         <g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
           <g transform='translate(207.000000, 24.000000)'>
               <rect fill='#424242' x='270' y='6' width='9' height='90' rx='4.5'/>
@@ -23,3 +23,4 @@ const Header = () => {
 };
 
 export default Header;
+
