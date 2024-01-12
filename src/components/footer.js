@@ -23,8 +23,8 @@ const Footer = () => {
           style={getIconStyle('ic:round-call')}
         >
           <Icon icon='ic:round-call'  width='25' height='25' />
-          <div className='w-4 h-4 rounded-full bg-red-500 text-xs -ml-2.5 -mt-1 flex items-center justify-center'>
-            <span className='text-white font-semibold'>8</span>
+          <div className='w-5 h-4 rounded-full bg-red-500 p-px text-xs -ml-2.5 -mt-1 flex items-center justify-center'>
+            <span className='text-white font-semibold'>16</span>
           </div>
         </div>
 
