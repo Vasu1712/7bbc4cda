@@ -1,42 +1,54 @@
+# Aircall 
+A ReactJS application that utilises Tailwind to complete my submission for the Speer.io FrontEnd Hiring Assignment.
+
 ## Summary
 
-The goal of this test is to make you code a small ReactJS app. We have prepared a skeleton app for you, but feel free to change anything (CSS files, HTML structure, JS structure, etc) to suit your needs.
+This ReactJS app is a simple Activity Feed application designed to showcase my skills in ReactJS practices and code readability. 
+The app includes features like:
 
-The app should have the following features:
-- **Activity Feed** - simple list of calls
-- **Activity Detail** - detail of a call
-- **Archive** - the final user should be able to archive (and unarchive) a call. Archived calls will no longer be displayed on the Activity Feed and should have a separate Archived Tab.
-- A button to archive all calls in the activity feed
-- A button to unarchive all calls in the archived calls tab
+- **Activity Feed**: A simple list of calls displaying relevant information.
+- **Activity Detail**: Detailed information about a specific call.
+- **Archive**: Users can archive or unarchive individual calls. Archived calls are moved to a separate Archived Tab.
+- **Archive All Button**: Allows users to archive all calls in the Activity Feed.
+- **Unarchive All Button**: Allows users to unarchive all calls in the Archived Tab.
 
-Show us what you can do in 48 hours. You will be assessed on the following parameters: 
-- Focus on design sense (Pay attention to the UI/UX and transitions)
-- React Best Practices
-- Code Readability and Maintainability
+## Getting Started
+Check out the Vercel Link [Aircall](https://vasu1712uuid7bbc4cda.vercel.app/home)
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Vasu1712/7bbc4cda.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd 7bbc4cda
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Run the app:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Submission Requirements
-After you're done with the assignment, please submit a link to the **GitHub/Bitbucket repository** (make sure it's public) with your code **AND** a deployment link where our recruiters can interact with the live version. You can use freely available tools like **Netlify, Vercel, Render, etc** to deploy your React application.
+UUID number - *7bbc4cda*
 
-Your repository name should be the first 8 digits of a UUID. A random UUID can be generated from any site like this one: https://www.uuidgenerator.net/version4. This is to prevent malicious actors from plagiarizing your submission by searching for it on GitHub, since your repository is public.
-
-For example: Your respository name here will be `036b1c95` and the repository URL that you submit will look like: `https://github.com/<your-username>/036b1c95`
-<img width="782" alt="Screenshot 2024-01-10 at 10 07 47 PM" src="https://github.com/speer-technologies/aircall/assets/66385959/64fd4b89-e288-4e31-ad62-0949a686088a">
-
-**Note:** Submissions that fail to comply with any of the above submission requirements will be removed from any further consideration.
-
-To give you an example/reference, here's what the app could look like:
+Here's what the app looks like:
 
 
-![app](https://user-images.githubusercontent.com/630714/29357034-763d7216-8276-11e7-8bcb-e77d9645dfcc.png)
+![app](./readme_img/aircall-demo.png)
 
-## Installation
-
-We're using [yarn](https://yarnpkg.com) here (but you can use npm):
-
-```
-yarn install
-yarn start
-```
 
 ## API documentation
 
@@ -69,3 +81,15 @@ The API is hosted on a free server, which is why the first time you call the API
 - **duration** - duration of a call (in seconds)
 - **is_archived** - call is archived or not
 - **call_type** - can be a `missed`, `answered` or `voicemail` call.
+
+
+## Author
+
+Vasu
+Email: vasu.pal.ug20@nsut.ac.in
+LinkedIn: [Vasu Pal](https://www.linkedin.com/in/vasu-pal-300448203/)
+Portfolio: [Vasu](https://vasu1712.vercel.app/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
