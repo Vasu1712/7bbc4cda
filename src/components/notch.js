@@ -2,7 +2,7 @@ import React from 'react';
 
 const Notch = () => {
   return (
-    <div className='w-full h-7 bg-gray-300 flex rounded-t-lg shadow border-b-gray-600'>
+    <div className='w-full h-7 sticky bg-gray-300 flex rounded-t-lg shadow border-b-gray-600'>
         <div className='flex gap-x-1.5 pl-2 self-center	'>
             <div className='w-4 h-4 rounded-full bg-red-500'>
 

@@ -10,7 +10,9 @@ const mockApiData =
         "contactNumber": "123-456-7890",
         "isNumberSaved": true,
         "callType": "incoming",
-        "callOn": "Xavier"
+        "callOn": "Xavier",
+        "is_archived": "true"
+
     },
     {
         "name": "Alice Smith",
@@ -21,7 +23,8 @@ const mockApiData =
         "contactNumber": "987-654-3210",
         "isNumberSaved": false,
         "callType": "outgoing",
-        "callOn": "Xavier"
+        "callOn": "Xavier",
+        "is_archived": "true"
     },
     {
         "name": "Bob Johnson",
@@ -32,7 +35,8 @@ const mockApiData =
         "contactNumber": "555-123-4567",
         "isNumberSaved": true,
         "callType": "incoming",
-        "callOn": "PrivateSportShop"
+        "callOn": "PrivateSportShop" ,
+        "is_archived": "true"
     },
     {
         "name": "Emily White",
@@ -43,7 +47,8 @@ const mockApiData =
         "contactNumber": "789-456-1230",
         "isNumberSaved": true,
         "callType": "outgoing",
-        "callOn": "PrivateSportShop"
+        "callOn": "PrivateSportShop",
+        "is_archived": "true"
     },
     {
         "name": "Chris Brown",
@@ -54,7 +59,8 @@ const mockApiData =
         "contactNumber": "333-999-7777",
         "isNumberSaved": false,
         "callType": "incoming",
-        "callOn": "Xavier"
+        "callOn": "Xavier",
+        "is_archived": "true"
     },
     {
         "name": "Emma Davis",
@@ -65,7 +71,8 @@ const mockApiData =
         "contactNumber": "444-888-2222",
         "isNumberSaved": true,
         "callType": "outgoing",
-        "callOn": "Xavier"
+        "callOn": "Xavier",
+        "is_archived": "true"
     }
   ];
   

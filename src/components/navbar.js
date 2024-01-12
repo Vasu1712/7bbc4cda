@@ -17,7 +17,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className='w-full h-16 flex shadow border-b-gray-600 font-lato'>
+    <div className='w-full h-16 sticky flex shadow border-b-gray-600 font-lato'>
         <div className='pl-4 self-center flex'>
         <svg className='w-8 h-8' viewBox="0 0 170 168" xmlns="http://www.w3.org/2000/svg">
             <path
